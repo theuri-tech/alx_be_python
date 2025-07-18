@@ -1,0 +1,11 @@
+# A program to give advice on what to wear based on the weather
+current_weather = input(("What's the weather like today? (sunny/rainy/cold): \n")).strip() .lower()
+if current_weather == "sunny":
+    print("Wear a t-shirt and sunglasses.")
+elif current_weather == "rainy":
+    print("Don't forget your umbrella and a raincoat.")
+elif current_weather == "cold":
+    print("Make sure to wear a warm coat and scarf.")
+else:
+    print("Sorry, I don't have recommendations for this weather.")
+
