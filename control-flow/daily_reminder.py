@@ -6,15 +6,15 @@ time_bound =  input("Is it time-bound? (yes/no): ").lower()
     #priority 
 match priority:
     case "high":
-        message = f"High-priority task: {task}."
+        reminder = f"High-priority task: {task}."
     case "medium":
-        message = f"Medium-priority task: {task}."
+        reminder = f"Medium-priority task: {task}."
     case "low":
-        message = f"Low-priority task: {task}."
+        reminder = f"Low-priority task: {task}."
 
 # Modify message if time-sensitive
 if time_bound == "yes":
-    message += " This task requires immediate attention today!"
+    reminder += " This task requires immediate attention today!"
 
 # Provide the Customized Reminder
-print(message)
+print(reminder)
