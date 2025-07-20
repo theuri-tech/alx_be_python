@@ -1,5 +1,5 @@
 # A program to give advice on what to wear based on the weather
-weather = input("What's the weather like today? (sunny/rainy/cold): ")
+weather = input("What's the weather like today? (sunny/rainy/cold): ").strip() .lower()
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
