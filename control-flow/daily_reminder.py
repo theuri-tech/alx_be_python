@@ -1,6 +1,6 @@
 # Program to create a single, priority task reminder.
 task = input("Enter your task: ")
-priority = input("Priority (high, medium, low): ").lower()
+priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 while priority not in ("high", "medium", "low"):
     priority = input("Please enter a valid priority; high, medium, low: ")
